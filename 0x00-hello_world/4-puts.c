@@ -15,6 +15,6 @@ int main(void)
 	
 	puts(puzzle)
 
-	return(0)
+	return(0);
 
 } 
