@@ -3,9 +3,8 @@
 #include <time.h>
 
 /**
- * main - generates keygen
- *
- *Return: Always 0
+ * main - generates keygen.
+ * Return: 0 Always.
  */
 int main(void)
 {
@@ -18,7 +17,6 @@ int main(void)
 		r = rand() % 128;
 		if ((c + r) > 2772)
 			break;
-
 		c = c + r;
 		printf("%c", r);
 	}
