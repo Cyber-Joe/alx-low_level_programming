@@ -11,6 +11,5 @@ char *argstostr(int ac, char **av);
 char **strtow(char *str);
 int _putchar(char c);
 void free(void *s);
-void *malloc(size_t(c + 1) * sizeof(char));
 
 #endif
