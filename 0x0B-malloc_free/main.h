@@ -1,3 +1,4 @@
+#include <stddef.h>
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -10,6 +11,6 @@ char *argstostr(int ac, char **av);
 char **strtow(char *str);
 int _putchar(char c);
 void free(void *s);
-malloc((c + 1) * sizeof(char));
+void *malloc(size_t(c + 1) * sizeof(char));
 
 #endif
